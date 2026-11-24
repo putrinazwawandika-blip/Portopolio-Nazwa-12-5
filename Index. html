@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halaman Utama</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #f3e8ff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #5b4b9a;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:nth-child(1) {
+    background: #8b5cf6;
+}
+
+.menu a:nth-child(2) {
+    background: #3b82f6;
+}
+
+.menu a:nth-child(3) {
+    background: #ec4899;
+}
+
+.menu a:hover {
+    transform: translateY(-4px);
+    opacity: 0.9;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #aaa;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Halaman Utama</h1>
+    <p>Silakan pilih dokumen yang ingin dibuka</p>
+
+    <div class="menu">
+        <a href="LINK_SURAT_LAMARAN" target="_blank">
+            📄 Surat Lamaran Kerja
+        </a>
+
+        <a href="LINK_CV_WEBSITE" target="_blank">
+            💻 CV Website
+        </a>
+
+        <a href="LINK_CV_PPT" target="_blank">
+            📊 CV PowerPoint
+        </a>
+    </div>
+
+    <footer>
+        © 2026 | Portofolio & Dokumen
+    </footer>
+</div>
+
+</body>
+</html>
